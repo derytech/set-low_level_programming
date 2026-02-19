@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
@@ -14,7 +15,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
-	/* print the number and its sign */
 	printf("%d is ", n);
 	if (n > 0)
 		printf("positive\n");
