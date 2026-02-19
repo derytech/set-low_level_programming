@@ -1,8 +1,3 @@
-Random number sign checker program.
-
-This program assigns a random number to a variable and prints
-whether the number is positive, negative, or zero.
-
-Compiled using:
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89
+This program prints the last digit of a random number
+and indicates if it is greater than 5, 0, or less than 6 and not 0.
 
