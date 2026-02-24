@@ -2,6 +2,7 @@
 #define MAIN_H
 
 int _putchar(char c);
-int _abs(int n);  /* <- THIS LINE MUST EXIST */
+int _abs(int n);
+int print_last_digit(int n); /* <- ADD THIS LINE */
 
 #endif
