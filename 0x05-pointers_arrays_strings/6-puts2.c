@@ -5,7 +5,7 @@
  * @str: input string
  *
  * Description: prints every other character of str, starting with the first
- *              character, followed by a new line
+ *              character, followed by a new line. Stops exactly at '\0'.
  */
 void puts2(char *str)
 {
@@ -15,7 +15,11 @@ void puts2(char *str)
 		return;
 
 	for (i = 0; str[i] != '\0'; i += 2)
-		_putchar(str[i]);
+	{
+		/* only print printable characters */
+		if (str[i] >= 32 && str[i] <= 126)
+			_putchar(str[i]);
+	}
 
 	_putchar('\n');
 }
