@@ -2,24 +2,16 @@
 
 /**
  * puts2 - prints every other character of a string
- * @str: input string
- *
- * Description: prints every other character of str, starting with the first
- *              character, followed by a new line. Stops exactly at '\0'.
+ * @str: the string to print
  */
 void puts2(char *str)
 {
-	int i;
+	int i = 0;
 
-	if (!str)
-		return;
-
-	for (i = 0; str[i] != '\0'; i += 2)
+	while (str[i] != '\0')
 	{
-		/* only print printable characters */
-		if (str[i] >= 32 && str[i] <= 126)
-			_putchar(str[i]);
+		_putchar(str[i]);
+		i += 2;
 	}
-
 	_putchar('\n');
 }
