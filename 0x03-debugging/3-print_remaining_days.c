@@ -26,8 +26,8 @@ void print_remaining_days(int month, int day, int year)
 		return;
 	}
 
-	/* If leap year and date is after Feb, increment day */
-	if (is_leap && day >= 60)
+	/* Only increment days for dates AFTER Feb 29 in leap years */
+	if (is_leap && day > 59)
 		day++;
 
 	printf("Day of the year: %d\n", day);
