@@ -12,6 +12,6 @@ void _puts_recursion(char *s)
         return;
     }
 
-    _putchar(*s);            /* print current character */
-    _puts_recursion(s + 1);  /* recursive call for next character */
+    _putchar(*s);          /* print current character */
+    _puts_recursion(s + 1); /* recursive call */
 }
