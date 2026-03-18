@@ -1,21 +1,13 @@
-# 0x04. C - More functions, more nested loops
+# _isupper Project
 
-## Project: 0-isupper
+This project is part of the 0x04 More Functions, Nested Loops ALX C project.
 
-### Description
-This project is part of the **Low-Level Programming** curriculum. It focuses on creating functions in C that follow **Betty coding style** and project requirements, without using standard output functions like `printf` in the main code files.  
+## Description
 
-The `_isupper` function checks whether a given character is an uppercase letter.
+Implements a function `_isupper` that checks if a character is uppercase.
 
-### Files
-| File | Description |
-|------|-------------|
-| `0-isupper.c` | Contains the `_isupper` function. |
-| `main.h` | Header file containing the prototype for `_isupper`. |
-| `0-main.c` | Test file for `_isupper`. Uses `printf` to show output. |
+## Files
 
-### Usage
-1. Compile the code using:
-
-```bash
-gcc -Wall -Werror -Wextra -pedantic -std=gnu89 0-main.c 0-isupper.c -o 0-isupper
+- `0-isupper.c` – contains the `_isupper` function.
+- `0-main.c` – main file to test `_isupper`.
+- `main.h` – header file containing function prototypes.
