@@ -1,14 +1,12 @@
-global main
+global hello_alx
 extern printf
 
 section .data
     msg db "Hello, ALX", 10, 0
 
 section .text
-main:
+hello_alx:
     mov rdi, msg
     xor rax, rax
     call printf
-
-    mov rax, 0
     ret
