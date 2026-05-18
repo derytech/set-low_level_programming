@@ -1,0 +1,14 @@
+global main
+extern printf
+
+section .data
+    msg db "Hello, ALX", 10, 0
+
+section .text
+main:
+    mov rdi, msg
+    xor rax, rax
+    call printf
+
+    mov rax, 0
+    ret
